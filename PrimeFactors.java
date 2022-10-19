@@ -7,10 +7,10 @@ public class Main {
       System.out.println("Enter the required new number ::");
       number = sc.nextInt();
      
-      for(int i = 2; i< number; i++) {
-         while(number%i == 0) {
-            System.out.println(i +" ");
-            number = number/i;
+      for(int j = 2; j< number; j++) {
+         while(number%j == 0) {
+            System.out.println(j +" ");
+            number = number/j;
          }
       }
       if(number > 2) {
