@@ -4,7 +4,7 @@ public class Main {
    public static void main(String args[]){
       int num;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter the required new number ::");
+      System.out.println("Enter the required new number");
       num = sc.nextInt();
      
       for(int j = 2; j< num; j++) {
