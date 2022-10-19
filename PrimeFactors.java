@@ -4,13 +4,13 @@ public class Main {
    public static void main(String args[]){
       int number;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter the required new number ::");
+      System.out.println("Enter given the required new number ::");
       number = sc.nextInt();
      
-      for(int j = 2; j< number; j++) {
+      for(int i = 2; i< number; i++) {
          while(number%i == 0) {
-            System.out.println(j+" ");
-            number = number/j;
+            System.out.println(i +" ");
+            number = number/i;
          }
       }
       if(number > 2) {
